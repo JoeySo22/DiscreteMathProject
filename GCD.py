@@ -26,9 +26,9 @@ def EuclidianAlgorithm(x,y):
     return EuclidianAlgorithm(y, x%y)
 
 # We check to make sure all the arguements are straight.
-if (len(sys.argv) == 3):
-    if (int(sys.argv[1]) < 1 or int(sys.argv[2]) < 1):
-        raise InvalidGCDArguement
+#if (len(sys.argv) == 3):
+   # if (int(sys.argv[1]) < 1 or int(sys.argv[2]) < 1):
+        #raise InvalidGCDArguement
 
     #We call the program here.
-    print(main(int(sys.argv[1]), int(sys.argv[2])))
+print(main(int(sys.argv[1]), int(sys.argv[2])))
